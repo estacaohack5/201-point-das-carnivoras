@@ -26,10 +26,24 @@ header input{
     border-radius: 10px;
     display: none;
     background-color: #ddd;
+    font-size: 18px;
+    padding-left: 10px;
 }
 
 header img{
     width: 25px;
+}
+
+.principal > div:nth-child(1){
+    width: 100%;
+}
+
+.principal > div:nth-child(1) > img{
+    width: 100%;
+}
+
+.principal > div:nth-child(2){
+    width: 100%;
 }
 
 @media(min-width: 768px){
@@ -37,6 +51,16 @@ header img{
         display: block;
     }
     header img{
-        margin-left: -40px;
+        padding: 15px;
+        background-color: #ddd;
+        border-radius: 100%;
+        margin-left: -15px;
+    }
+    .principal > div:nth-child(1){
+        width: 70%;
+    }
+    
+    .principal > div:nth-child(2){
+        width: 30%;
     }
 }
