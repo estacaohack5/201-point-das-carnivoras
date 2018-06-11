@@ -46,6 +46,10 @@ header img{
     width: 100%;
 }
 
+.principal .destaque img{
+    width: 100%;
+}
+
 @media(min-width: 768px){
     header input{
         display: block;
@@ -55,6 +59,9 @@ header img{
         background-color: #ddd;
         border-radius: 100%;
         margin-left: -15px;
+    }
+    .principal{
+        display: flex;
     }
     .principal > div:nth-child(1){
         width: 70%;
